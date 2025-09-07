@@ -35,4 +35,34 @@
 * **Goal**: Predict **ISHIGHVAL** (whether a house is high-value).  
 * **Outputs include**:  
   - ✅ Training and Validation Scores (accuracy & classification metrics).  
-  - 📈 Lift Chart
+  - 📈 Lift Charts for both training and validation.  
+  - 📑 Classification Summary & Details for performance evaluation.  
+
+---
+
+### 🔹 B. Linear Regression
+
+* **Goal**: Predict the continuous target variable **MEDV (house prices)**.  
+* **Outputs include**:  
+  - 📊 Coefficients of predictors.  
+  - 📑 Training and Validation Prediction Summaries.  
+  - 📈 Lift Charts comparing predicted vs. actual values.  
+
+---
+
+## 📚 5. Documentation
+
+* A **Data Dictionary** is provided 📖, describing each variable in the dataset for clarity and reference.  
+
+---
+
+## 📝 Summary
+
+This project demonstrates a **complete data mining workflow** using the Boston Housing dataset:  
+
+1. 🧹 **Data preparation** (sampling, cleaning, imputation).  
+2. 🔀 **Partitioning** (training vs validation).  
+3. 🤖 **Modeling** with both **classification (KNN)** and **regression (Linear Regression)**.  
+4. 📊 **Evaluation** using accuracy scores, lift charts, regression summaries, and validation metrics.  
+
+👉 It shows how **classification** can be used for categorical outcomes (high-value homes) and **regression** for continuous prediction (home prices).  
